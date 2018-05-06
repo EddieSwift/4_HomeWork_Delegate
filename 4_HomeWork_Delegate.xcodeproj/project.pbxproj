@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C2B65832091082600591755 /* EGBBadDoctor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2B65822091082600591755 /* EGBBadDoctor.m */; };
 		2CB14202208E67BC00333A75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB14201208E67BC00333A75 /* AppDelegate.m */; };
 		2CB14205208E67BC00333A75 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB14204208E67BC00333A75 /* ViewController.m */; };
 		2CB14208208E67BC00333A75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CB14206208E67BC00333A75 /* Main.storyboard */; };
 		2CB1420A208E67BE00333A75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CB14209208E67BE00333A75 /* Assets.xcassets */; };
 		2CB1420D208E67BE00333A75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CB1420B208E67BE00333A75 /* LaunchScreen.storyboard */; };
 		2CB14210208E67BE00333A75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB1420F208E67BE00333A75 /* main.m */; };
+		2CB14218208E683A00333A75 /* EGBPatient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB14217208E683A00333A75 /* EGBPatient.m */; };
+		2CB1421B208E6D0F00333A75 /* EGBDoctor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB1421A208E6D0F00333A75 /* EGBDoctor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C2B65812091082600591755 /* EGBBadDoctor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EGBBadDoctor.h; sourceTree = "<group>"; };
+		2C2B65822091082600591755 /* EGBBadDoctor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EGBBadDoctor.m; sourceTree = "<group>"; };
 		2CB141FD208E67BC00333A75 /* 4_HomeWork_Delegate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 4_HomeWork_Delegate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CB14200208E67BC00333A75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2CB14201208E67BC00333A75 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +31,10 @@
 		2CB1420C208E67BE00333A75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CB1420E208E67BE00333A75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CB1420F208E67BE00333A75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2CB14216208E683A00333A75 /* EGBPatient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EGBPatient.h; sourceTree = "<group>"; };
+		2CB14217208E683A00333A75 /* EGBPatient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EGBPatient.m; sourceTree = "<group>"; };
+		2CB14219208E6D0F00333A75 /* EGBDoctor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EGBDoctor.h; sourceTree = "<group>"; };
+		2CB1421A208E6D0F00333A75 /* EGBDoctor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EGBDoctor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +69,12 @@
 			children = (
 				2CB14200208E67BC00333A75 /* AppDelegate.h */,
 				2CB14201208E67BC00333A75 /* AppDelegate.m */,
+				2CB14216208E683A00333A75 /* EGBPatient.h */,
+				2CB14217208E683A00333A75 /* EGBPatient.m */,
+				2CB14219208E6D0F00333A75 /* EGBDoctor.h */,
+				2CB1421A208E6D0F00333A75 /* EGBDoctor.m */,
+				2C2B65812091082600591755 /* EGBBadDoctor.h */,
+				2C2B65822091082600591755 /* EGBBadDoctor.m */,
 				2CB14203208E67BC00333A75 /* ViewController.h */,
 				2CB14204208E67BC00333A75 /* ViewController.m */,
 				2CB14206208E67BC00333A75 /* Main.storyboard */,
@@ -97,6 +112,7 @@
 		2CB141F5208E67BC00333A75 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = EGB;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = Eddie;
 				TargetAttributes = {
@@ -142,7 +158,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CB14205208E67BC00333A75 /* ViewController.m in Sources */,
+				2C2B65832091082600591755 /* EGBBadDoctor.m in Sources */,
 				2CB14210208E67BE00333A75 /* main.m in Sources */,
+				2CB1421B208E6D0F00333A75 /* EGBDoctor.m in Sources */,
+				2CB14218208E683A00333A75 /* EGBPatient.m in Sources */,
 				2CB14202208E67BC00333A75 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
